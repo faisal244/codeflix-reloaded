@@ -1,0 +1,29 @@
+{
+	"name": "codeflix-reloaded",
+	"version": "1.0.0",
+	"description": "A movie site in the style of Netflix, using handlebars for server side rendering",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js",
+		"start": "node src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/faisal244/codeflix-reloaded.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/faisal244/codeflix-reloaded/issues"
+	},
+	"homepage": "https://github.com/faisal244/codeflix-reloaded#readme",
+	"dependencies": {
+		"express": "^4.18.1",
+		"mysql2": "^2.3.3",
+		"sequelize": "^6.21.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.18"
+	}
+}
